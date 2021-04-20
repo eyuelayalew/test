@@ -16,7 +16,7 @@ http://www.mulesoft.org/schema/mule/tls http://www.mulesoft.org/schema/mule/tls/
 		</http:request-connection>
 	</http:request-config>
 	<flow name="http2httpsFlow" doc:id="ddd0b667-2e5a-4619-96dc-2a9b4a60d243" >
-		<http:listener doc:name="Listener" doc:id="455e4aa8-97bb-4afd-a2d2-1edfdb6a1a11" config-ref="HTTP_Listener_config" path="/callboa"/>
+		<http:listener doc:name="Listener" doc:id="455e4aa8-97bb-4afd-a2d2-1edfdb6a1a11" config-ref="HTTP_Listener_config" path="/callboauu"/>
 		<http:request method="GET" doc:name="Request" doc:id="b93fe208-e04b-4b2b-ae1b-283d46eaebf0" config-ref="HTTP_Request_configuration" path="/"/>
 	</flow>
 </mule>
